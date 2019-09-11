@@ -6,9 +6,11 @@ class Song
     @@all
   end
 
-  def initialize create 
+  def  create(@name)
     @name = name 
     @@all << @name 
+    name 
+    
   end 
     
   def save
