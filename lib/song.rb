@@ -6,7 +6,7 @@ class Song
     @@all
   end
 
-  def  create(@name)
+  def  initialize create(name)
     @name = name 
     @@all << @name 
     name 
