@@ -9,7 +9,7 @@ class Song
   def  initialize create
     @name = name 
     @@all << @name 
-    name 
+    
     
   end 
     
